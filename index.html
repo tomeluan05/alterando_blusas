@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <title>Testes</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="blusa">
+        <div class="frente" id="frente">
+            <div class="peito">
+                <div class="apollo" id="apollo">Apollo</div>
+                <div class="simbolo" id="simbolo">Escudo</div>
+            </div>
+            <div class="numero numero-frente" id="numero">10</div>
+        </div>
+        <div class="tras" id="tras">
+            <div class="nome nome-atras" id="nome">Nome</div>
+            <div class="numero numero-atras" id="numero-atras">10</div>
+        </div>
+    </div>
+    <div class="controles">
+        <span>Mudar a cor da blusa</span>
+        <input type="color" id="corBlusa" onchange="mudarCorBlusa()"><br><br>
+        <!-- <input type="text" id="nomeTime" placeholder="Nome do time" oninput="mudarSimbolo()"> -->
+        <input type="text" id="numeroFrente" minlength="1" maxlength="3" placeholder="Número frente" oninput="mudarNumeroFrente()"> <br><br>
+        <input type="text" id="nomeJogador" maxlength="12" placeholder="Nome jogador" oninput="mudarNome()"> <br><br>
+        <input type="text" id="numeroTras" minlength="1" maxlength="3" placeholder="Número costas" oninput="mudarNumeroTras()"><br>
+        <span>Mudar a cor dos números e nomes</span>
+        <input type="color" id="corTexto" onchange="mudarCorTexto()">
+    </div>   
+
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>

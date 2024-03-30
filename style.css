@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Arial", sans-serif;
+}
+
+input[type="text"] {
+    padding: 10px 5px;
+}
+
+.blusa {
+    width: 400px;
+    height: 300px;
+    background-color: #ffffff;
+    /* border: 2px solid black; */
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.frente,
+.tras {
+    width: 190px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    border: 2px solid black; 
+}
+.peito{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 40%;
+    justify-content: space-between;
+}
+
+.apollo{
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.simbolo{
+    margin-right: 10px;
+}
+
+.numero-frente{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 30px !important;
+}
+
+.numero-atras{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 80px !important;
+}
+
+.nome-atras{
+    margin-top: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.simbolo,
+.nome,
+.numero {
+    font-size: 18px;
+}
+
+.controles {
+    margin-top: 20px;
+}
+
